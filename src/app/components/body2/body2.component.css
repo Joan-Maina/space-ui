@@ -1,0 +1,53 @@
+*{
+    color: white;
+}
+.mainpart{
+    align-self: center;
+width: 100vw;    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px ;
+}
+.mainpart1{
+   height: 70vh;
+   width: 50vw;
+    background-image: url("../../../../assets/destination/image-mars.png");
+    background-repeat: no-repeat;
+}
+.mainpart2{
+    margin-top: 20px;
+    height: 60vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+.body2{
+    margin: 10px 100px;
+}
+.tabs{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+h1{
+    font-size: 100px;
+    font-weight: lighter;
+}
+.titles, .titles2{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+.maintext{
+    letter-spacing: 2px;
+    
+}
+hr{
+    opacity: 0.5;
+}
+.titles2{
+    font-size: 20px;
+    font-weight: bold;
+}

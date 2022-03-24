@@ -1,0 +1,35 @@
+.navbarpage{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    margin-top:30px;
+
+}
+.mainnav{
+    width: 35%;
+    color: white;
+    margin-top:30px;
+margin-left: 210px;
+}
+
+.navbar{ 
+    background-color: rgba(0,0,0, 0.2); /* Black w/opacity/see-through */
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.routerlink{
+    color: white;
+    text-decoration: none;
+
+}
+.active-link{
+    /* transform: scale(1.5); */
+    color: blue;
+}

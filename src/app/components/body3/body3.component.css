@@ -1,0 +1,33 @@
+.right{
+    background-image: url("../../../../assets/crew/image-anousheh-ansari.png");
+}
+.body3{
+    color: white;
+    display: flex;
+}
+p{
+    color: white;
+
+}
+.right{
+    width: 50%;
+    height:80vh;
+    letter-spacing: 2px;
+    margin-top: 30px;
+}
+.left{
+    width: 45%;
+    margin-top: 90px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: space-around;
+}
+.flight{
+    font-size: 30px;
+opacity: 0.5;
+}
+.name{
+    font-size: 40px;
+}

@@ -1,0 +1,37 @@
+.mainbody4{
+    display: flex; 
+    margin-left: 50px;
+    width: 90vw;
+    /* margin-top: 100px; */
+}
+.shipimage{
+   width:40vw;
+   margin-left: 70px;
+   background-image: url("../../../../assets/technology/image-launch-vehicle-portrait.jpg");
+   height: 50vh;
+}
+.description{
+    width: 30vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.numbers{
+    margin-top: 30px;
+    width: 20vw;
+    height: 50vh;
+}
+.numbers > p{
+    margin: 30px;
+    color: white;
+    width: fit-content;
+   padding: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+#one{
+    background-color: white;
+    color: black;
+    border: none;
+}
