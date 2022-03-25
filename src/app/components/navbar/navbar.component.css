@@ -1,9 +1,8 @@
 .navbarpage{
-    width: 100vw;
+    /* width: 100vw; */
     display: flex;
     justify-content: space-around;
     margin-top:30px;
-
 }
 .mainnav{
     width: 35%;
@@ -33,3 +32,22 @@ margin-left: 210px;
     /* transform: scale(1.5); */
     color: blue;
 }
+.icon{
+visibility: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+  
+ .icon{
+     visibility: visible;
+color: white;
+margin-top: 50px;
+margin-left: 90%;
+ }
+
+.navbarpage{
+    display: none;
+}
+
+
+  }

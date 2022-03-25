@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { MatIconModule } from '@angular/material/icon';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
@@ -12,6 +14,7 @@ import { Body3Component } from './components/body3/body3.component';
 import { PagethreeComponent } from './pages/pagethree/pagethree.component';
 import { PagefourComponent } from './pages/pagefour/pagefour.component';
 import { Body4Component } from './components/body4/body4.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -28,7 +31,9 @@ import { Body4Component } from './components/body4/body4.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
